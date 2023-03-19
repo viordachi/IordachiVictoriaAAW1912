@@ -1,0 +1,19 @@
+svg {
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 100px;
+}
+
+svg .animation polygon, svg .animation polyline, svg .animation path {
+  -webkit-transform: translateX(em-calc(0));
+  -webkit-transition: 0.4s;
+  -ms-transform: translateX(em-calc(0));
+  -ms-transition: 0.4s;
+  -moz-transform: translateX(em-calc(0));
+  -moz-transition: 0.4s;
+  -o-transform: translateX(em-calc(0));
+  -o-transition: 0.4s;
+  transform: translateX(em-calc(0));
+  transition: 0.4s;
+}
