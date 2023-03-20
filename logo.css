@@ -17,3 +17,6 @@ svg .animation polygon, svg .animation polyline, svg .animation path {
   transform: translateX(em-calc(0));
   transition: 0.4s;
 }
+body {
+color: #9CDFD7;
+}
